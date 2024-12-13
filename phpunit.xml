@@ -4,6 +4,10 @@
          bootstrap="vendor/autoload.php"
          colors="true"
 >
+    <testsuite name="My Test Suite">
+    <directory>tests</directory>
+</testsuite>
+
     <testsuites>
         <testsuite name="Unit">
             <directory>tests/Unit</directory>
